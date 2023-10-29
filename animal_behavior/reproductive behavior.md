@@ -3,7 +3,7 @@
 
 Mating Season: 
 
-## The mating season for bison, also known as the rut, begins in late July and extends through early September. 
+#### The mating season for bison, also known as the rut, begins in late July and extends through early September. 
 
 During this time, mature bulls become more aggressive and competitive for mating opportunities. 
 
@@ -31,7 +31,7 @@ After a gestation period of approximately 9 months, cows give birth to calves in
 
 Mating Season: 
 
-## The elk rut occurs in the fall, generally from September to November. 
+#### The elk rut occurs in the fall, generally from September to November. 
 
 This is the period when bulls become highly active in seeking mates. 
 
@@ -63,7 +63,7 @@ Calves are born in the spring, typically in May or June, following a gestation p
 
 Mating Season: 
 
-## The moose rut takes place in the fall, typically in September and October. 
+#### The moose rut takes place in the fall, typically in September and October. 
 
 This is when bull moose are most active in seeking mates. 
 
