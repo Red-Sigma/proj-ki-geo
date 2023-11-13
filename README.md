@@ -10,7 +10,7 @@ proj-ki-geo/
 │   └── ndvi             # a tutorial on how to use ndvi
 ├── journal              # weekly notes
 │   └── presentations    # past presentations
-└── resources
+└── resources            # data (layer) for the einp-model
 ```
 
 ## different project repositories and their purpose

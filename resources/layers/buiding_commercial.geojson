@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "buiding_commercial",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w295765424", "osm_id": "295765424", "osm_type": "way", "building": "commercial", "name": null, "historic": null }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -112.8417271, 53.5901062 ], [ -112.8416539, 53.5900581 ], [ -112.8416195, 53.5900356 ], [ -112.8415954, 53.5900198 ], [ -112.8415233, 53.5899725 ], [ -112.8412765, 53.5900744 ], [ -112.8414911, 53.5902208 ], [ -112.8417271, 53.5901062 ] ] ] ] } },
+{ "type": "Feature", "properties": { "full_id": "w299071785", "osm_id": "299071785", "osm_type": "way", "building": "commercial", "name": "Demchuk Blacksmith Shop", "historic": "building" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -112.7991992, 53.5680619 ], [ -112.7989823, 53.568065 ], [ -112.7989867, 53.5681727 ], [ -112.7992036, 53.5681695 ], [ -112.7991992, 53.5680619 ] ] ] ] } }
+]
+}

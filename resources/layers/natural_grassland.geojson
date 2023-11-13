@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "natural_grassland",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "full_id": "w613848041", "osm_id": "613848041", "osm_type": "way", "natural": "grassland" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -112.824115, 53.668349 ], [ -112.8241661, 53.6673625 ], [ -112.8232283, 53.6674192 ], [ -112.8225521, 53.6678992 ], [ -112.8228583, 53.668383 ], [ -112.824115, 53.668349 ] ] ] ] } }
+]
+}
