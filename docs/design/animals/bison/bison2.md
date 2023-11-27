@@ -1,7 +1,9 @@
 ```mermaid
 flowchart TD
     A[Start Day] -->|Wake Up - 1 hour| B[Morning Grazing]
-    B -->|Assess Thirst - 0.5 hour| C[if thirsty, Search for Water Source]
+    B -->|Assess Thirst - 0.5 hour| C{ thirsty?}
+    C -->|do random walk or sleep - 1 hour?| Z[RandomWalk/Rest]
+ 
 
     C -->|Detect Water Scents - 1 hour| D{Move Toward Water}
     D -->|Water Nearby, Distance < 100m - 1 hour| E[Drink Water]
