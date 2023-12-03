@@ -1,30 +1,43 @@
 ```mermaid
 flowchart TD
-    A[Start Day] -->|Wake Up - 1 hour| B[Morning Grazing]
-    B -->|Assess Thirst - 0.5 hour| C{ thirsty?}
-    C -->|do random walk or sleep - 1 hour?| Z[RandomWalk/Rest]
- 
 
-    C -->|Detect Water Scents - 1 hour| D{Move Toward Water}
-    D -->|Water Nearby, Distance < 100m - 1 hour| E[Drink Water]
-    D -->|No Water Detected| Q[Wandering for Water Search]
+  A[Start Tick] -->|Check Hunger| B{Is Bison Hungry?}
+  B -->|Yes| C[Eat]
+  B -->|No| D{Thirsty}
 
-    E -->|Midday - 2 hours| F[Resting in Shade]
-    F -->|Maintain Herd Unity - 1 hour| G[Social Interaction]
+  D -->|Yes| E[Drink]
+  D -->|No| F{Is it Mating Season}
 
-    G -->|Afternoon - 2 hours| H[Afternoon Grazing]
-    H -->|Assess Hunger - 0.5 hour| I[if hungry, Search for Food]
-    I -->|Detect Food Scents - 1 hour| J[Move Toward Food]
-    J -->|Food Nearby, Distance < 50m - 1 hour| K[Graze on Grasses]
-    J -->|No Food Detected| R[Wandering for New Food]
-    K -->|Continue Grazing| L[Evening]
-    
-    L -->|Return to Resting Area - 1 hour| M[Rest and Cuddle]
-    M -->|Sunset| N[Night]
-    N -->|End Day| P[Sleep - 8 hours]
+  F -->|Yes| G[Engage in Mating Behavior]
+  F -->|No| H[Check Pregnancy]
 
-    Q -->|Search in New Directions 20-50m - 1 hour| C
-    R -->|Search in New Directions 30-70m - 1 hour| I
+  H -->|Yes| I[Skip Mating]
+  H -->|No| J[Proceed with walking around]
+  
+
+  J -->|Check Age| K{Is Bison Mature?}
+  K -->|Yes| L[Act According to Age]
+  K -->|No| M[Explore Environment]
+
+  L -->|Check Social Behavior| N{Is Bison in a Herd?}
+  N -->|Yes| O[Social Interaction]
+  N -->|No| P[Seek Herd]
+
+
+
+  M -->|Check tiredness| T[Is Bison Tired?]
+  T -->|Yes| U[Rest]
+  T -->|No| V[Continue Normal Activities]
+
+  U -->|Check Newborns| W[Are There Newborns Nearby?]
+  W -->|Yes| X[Show Protective Behavior]
+  W -->|No| Y[Continue Resting]
+
+  V -->|Check Migration| Z[Is it Migration Season?]
+  Z -->|Yes| AA[Migrate]
+  Z -->|No| AB[Continue Normal Activities]
+
+  AB -->|End Tick| AC[End Tick]
 
 
 ```
@@ -38,6 +51,4 @@ flowchart TD
   I -->|Raise Offspring| J[Female Cares for Calf]
   J -->|Calf Grows 0-2 years| K[Young Bison Stage]
   K -->|Mature Enough 3 years| L[Independent Bison]
-
-
 ```
