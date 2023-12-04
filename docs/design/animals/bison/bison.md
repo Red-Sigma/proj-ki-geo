@@ -14,7 +14,7 @@ flowchart TD
   I -->|no| J[DoRandomWalk]
   I -->|yes| D{Move Toward Food}
   D -->|Food Nearby, Distance < 100m| E[Eat Grass]
-  D -->|No Water Detected| Q[Wandering for Water Search]
+  D -->|No Food Detected| Q[Wandering for Food Search]
 
 ```
 #
