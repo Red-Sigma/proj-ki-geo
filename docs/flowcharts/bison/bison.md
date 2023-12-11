@@ -1,3 +1,5 @@
+#
+# Check during the tick if bison thirsty
 ```mermaid
 flowchart TD
   A[Start]--> I{thirsty?}
@@ -7,7 +9,8 @@ flowchart TD
   D -->|No Water Detected| Q[Wandering for Water Search]
 
 ```
-# 
+#
+# Check during the tick if bison is hungry 
 ```mermaid
 flowchart TD
   A[Start]--> I{hunger?}
@@ -18,6 +21,7 @@ flowchart TD
 
 ```
 #
+# Check during the tick if it is mating season
 ```mermaid
 flowchart TD
   A[Start]--> I{isMatingSeason?}
@@ -29,6 +33,7 @@ flowchart TD
 
 ```
 #
+# Check during the tick if bison is tired and should get some rest
 ```mermaid
 flowchart TD
   A[Start]--> I{Nighttime?}
@@ -38,4 +43,20 @@ flowchart TD
   D -->|Not Ready to Sleep| J
 
 ```
-#
+# 
+# Chart for social interaction 
+```mermaid
+flowchart TD
+    A[Social Interaction] -->|Initiate Interaction| B[Greetings and Sniffing]
+    B -->|Friendly Interaction| C[Continue Grazing Together]
+    B -->|Unfriendly Interaction| D[Separate and Wandering]
+
+    D -->|Rejoin Herd After a While| E[Rejoin Herd]
+    D -->|Solitary Movement| F[Wander Alone]
+
+    C -->|Continue Grazing Together| G[More Socializing]
+
+    G -->|Playful Interaction| H[Chasing and Play]
+    G -->|Restful Interaction| I[Resting Together]
+    
+```
