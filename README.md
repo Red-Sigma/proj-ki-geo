@@ -11,6 +11,23 @@ proj-ki-geo/
 ├── journal              # weekly notes
 │   └── presentations    # past presentations
 └── resources            # data (layer) for the einp-model
+
+
+├───docs
+│   ├───animal_behavior
+│   ├───draw-io
+│   ├───flowchart
+│   │   └───animals
+│   │       ├───bison
+│   │       ├───elk
+│   │       └───moose
+│   └───ndvi
+│       └───media
+├───journal
+├───presentations
+└───resources
+    └───layers
+
 ```
 
 ## different project repositories and their purpose

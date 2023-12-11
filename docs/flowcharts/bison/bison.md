@@ -7,7 +7,7 @@ flowchart TD
   D -->|No Water Detected| Q[Wandering for Water Search]
 
 ```
-#
+# 
 ```mermaid
 flowchart TD
   A[Start]--> I{hunger?}
