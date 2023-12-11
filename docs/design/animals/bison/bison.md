@@ -28,3 +28,14 @@ flowchart TD
   Q -->|walk| D[Change Location and continue searching]
 
 ```
+#
+```mermaid
+flowchart TD
+  A[Start]--> I{Nighttime?}
+  I -->|no| J[Continue Daily Activities]
+  I -->|yes| D{Rest/Sleep}
+  D -->|Sleep for 7-9 hours| E[Resting/Sleeping]
+  D -->|Not Ready to Sleep| J
+
+```
+#
