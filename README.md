@@ -4,30 +4,15 @@
 
 ```bash
 proj-ki-geo/
-├── docs                 # documetation about the code
-│   ├── animal_behavior
-│   ├── design           # domain specific class diagrams
-│   └── ndvi             # a tutorial on how to use ndvi
-├── journal              # weekly notes
-│   └── presentations    # past presentations
-└── resources            # data (layer) for the einp-model
-
-
-├───docs
-│   ├───animal_behavior
-│   ├───draw-io
-│   ├───flowchart
-│   │   └───animals
-│   │       ├───bison
-│   │       ├───elk
-│   │       └───moose
-│   └───ndvi
-│       └───media
-├───journal
-├───presentations
-└───resources
+├───docs                   # documentation about the code
+│   ├───animal_behavior    # facts about animals
+│   ├───draw-io            # draw io files
+│   ├───flowcharts         # domain specific class diagrams
+│   └───ndvi               # a tutorial on how to use ndvi
+├───journal                # weekly notes
+├───presentations          # past presentation
+└───resources              # data (layer) for the einp-model
     └───layers
-
 ```
 
 ## different project repositories and their purpose
